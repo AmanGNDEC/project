@@ -1,0 +1,73 @@
+/* Reset some default styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+body {
+  background-image: url('alumni_home.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #74bce2;
+  border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.college-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.college-description {
+  margin-top: 20px;
+}
+
+.college-description h2 {
+  color: #ffffff;
+}
+
+.college-description p {
+  font-size: 18px;
+  line-height: 1.6;
+}
