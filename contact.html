@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - GNDEC</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Contact Form Container (smaller version) */
+    .contact-container {
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 350px;              /* Smaller width */
+      margin: 100px auto 40px auto;
+      padding: 20px;                 /* Reduced padding */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    .contact-container h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #ffffff;
+      font-size: 20px;               /* Slightly smaller heading */
+    }
+
+    .form-group {
+      margin-bottom: 12px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+    footer{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Form -->
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="rollno">Roll No</label>
+        <input type="text" id="rollno" name="rollno" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+      <footer class="site-footer">
+    <p> &copy; 2025 Amanveer Singh 2434915.</p>
+  </footer>
+    </form>
+  </div>
+</body>
+</html>
